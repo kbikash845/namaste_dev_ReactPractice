@@ -1,0 +1,82 @@
+.MainContainer {
+  display: flex;
+  gap: 12px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+  max-width: 500px;
+}
+
+.chip-input {
+  padding: 10px 12px;
+  width: 250px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s;
+}
+
+.chip-input:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.chip-button {
+  padding: 10px 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.chip-button:hover {
+  background-color: #218838;
+}
+.chip-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: #e0f7fa;
+  color: #00796b;
+  padding: 8px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chip-text {
+  margin-right: 8px;
+}
+
+.chip-delete {
+  background: transparent;
+  border: none;
+  color: #00796b;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.chip-delete:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
