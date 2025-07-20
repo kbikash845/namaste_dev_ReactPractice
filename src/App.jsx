@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import ChipsInput from './Components/ChipsInputs/ChipsInput'
 import ToggleButton from './Components/ToggleButton/ToggleButton'
+import AgeCalculator from './Components/AgeCalculator/AgeCalculator'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -13,6 +14,7 @@ function App() {
      <h1>Namaste React</h1>
      {/* <ChipsInput/> */}
      <ToggleButton/>
+     <AgeCalculator/>
     </>
   )
 }
